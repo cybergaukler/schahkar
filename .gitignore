@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Node modules
+node_modules/
+
+# Dist directory
+dist/
+
+# Production build output
+build/
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Vite cache
+.vite/
+
+# Vue specific
+*.local
+*.env.local
+*.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MacOS specific
+.DS_Store
+
+# Linux specific
+*.swp
+
+# Test output
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+
+# Babel cache
+.cache/
+
+# Linting cache
+.eslintcache
+
+# Log files
+*.log
+
+# Local environment
