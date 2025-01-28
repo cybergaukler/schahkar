@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'PersianFont';
+  src: url('@/assets/fonts/Persian-BWw2G.otf') format('opentype');
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  /* background-image: url('../background.jpg'); */
+  background-color: #e3b986;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'main sidebar-right'
+    'footer footer';
+  grid-template-columns: 1fr 38%;
+  grid-template-rows: 1fr 80px;
+  gap: 0px;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar-right {
+  grid-area: sidebar-right;
+}
+
+.sidebar-right-title {
+  font-family: 'PersianFont';
+  font-size: 6em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 0;
+}
+.sidebar-right-links-container {
+  margin-top: -40px;
+  margin-left: 20px;
+}
+.sidebar-right-links-list {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.sidebar-right-links-list a {
+  text-decoration: none;
+  color: black;
+}
+.sidebar-right-links-list a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.main-content {
+  grid-area: main;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.main-content-canvas {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.main-content-canvas canvas {
+  background-color: transparent;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.main-content-frame {
+  overflow: hidden;
+  position: absolute;
+  width: calc(100% + 64px);
+  height: calc(100%);
+  margin: 0px;
+  top: 0;
+  left: -46px;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/* Basic styling for all grid areas */
+.header,
+.sidebar-right,
+.footer {
+  padding: 0;
+  border-radius: 4px;
+}

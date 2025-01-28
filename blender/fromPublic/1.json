@@ -1,0 +1,25 @@
+{
+  "id": "2f47d3a8-9b24-4e98-b48c-86674ea91c6c",
+  "name": "tutorial#1",
+  "board": {
+    "shape": ["00000000", "00000000", "00111100", "00111100", "00111100", "00111100", "00000000", "00000000"],
+    "setup": {
+      "2,0,5": { "role": "asb", "color": "black", "owner": "C1" },
+      "3,0,5": { "role": "wazir", "color": "black", "owner": "C1" },
+      "4,0,5": { "role": "shah", "color": "black", "owner": "C1" },
+      "5,0,5": { "role": "asb", "color": "black", "owner": "C1" },
+      "3,0,3": { "role": "piyade", "color": "white", "owner": "H1" },
+      "4,0,3": { "role": "piyade", "color": "white", "owner": "H1" },
+      "3,0,2": { "role": "wazir", "color": "white", "owner": "H1" },
+      "4,0,2": { "role": "shah", "color": "white", "owner": "H1", "cursor": true }
+    }
+  },
+  "environment": {
+    "name": "oasis"
+  },
+  "onwer": {
+    "id": "s5f45c1s5d1sc"
+  },
+  "dateCreated": "2024-01-01",
+  "dateUpdated": "2024-01-21"
+}

@@ -1,0 +1,23 @@
+{
+  "setting": { "id": "e0bad186-769e-496f-9989-913ce07a4f79", "name": "Eransahr" },
+  "number": "1",
+  "name": "The path of Arash",
+  "access": "free",
+  "chapters": [
+    {
+      "name": "Leaving the monastery",
+      "panels": [
+        { "number": "1", "text": "Arash leaves the monastery to find a way to save his people from the drought.", "image": "https://picsum.photos/200/300", "narration": "Arash leaves the monastery to find a way to save his people from the drought.", "duration": "10s" },
+        { "number": "2", "text": "Arash meets a group of travelers who tell him about a hidden oasis.", "image": "https://picsum.photos/200/300", "duration": "10s", "encounters": ["First Fight"] }
+      ]
+    }
+  ],
+  "encounters": [
+    {
+      "name": "first Fight",
+      "board": { "shape": ["800000000", "700000000", "600011000", "500011000", "400011000", "300011000", "200000000", "100000000", " abcdefgh"], "setup": { "d3": { "character": { "id": "b07206ab-3768-4a68-a4ef-56bd68c4121c", "role": "shah", "color": "white", "name": "Arash" }, "owner": "H1", "cursor": true }, "d4": { "character": { "id": "625397a5-951d-4455-b44b-9eafbfe4c0f9", "role": "piyade", "color": "white", "name": "Ghadir" }, "owner": "H1" }, "d6": { "character": { "id": "b4d0066e-53a9-4a63-ae81-7bfaa3e735d5", "role": "shah", "color": "black", "name": "---" }, "owner": "C1" } } },
+      "environment": { "id": "d9f225a1-dcea-4578-a9ea-42d73c4cf4a2", "name": "Ruins of the Monastery", "idSetting": "e0bad186-769e-496f-9989-913ce07a4f79", "nameSetting": "Eransahr", "setting": { "id": "e0bad186-769e-496f-9989-913ce07a4f79", "name": "Eransahr" } }
+    }
+  ],
+  "id": "a43c2dbc-4858-4b2b-8884-f584f1156368"
+}
